@@ -28,12 +28,12 @@ platfrom = new Ground (200,400,400,400)
     log4 = new Log(760,120,150, PI/7);
     log5 = new Log(870,120,150, -PI/7);
     log6 = new Log(500,50,20, -PI/7);
-    bird = new Bird(100,100);
-    chain = new Chain(bird.body,{x:300,y:50});
+    bird = new Bird(331,30);
+    chain = new Chain(bird.body,{x:331,y:30});
 }
 
 function draw(){
-    background(0);
+    background("white");
     Engine.update(engine);
   //  console.log(box2.body.position.x);
     //console.log(box2.body.position.y);
